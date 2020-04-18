@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+#root, html,body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.app{
+    height: 100%;
+    background:url('./images/abstract-painting.jpg');
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button
+{
+    margin-top: 50px;
+    outline:none;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 8px 12px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+
+}
+.button:hover
+{
+    transform: scale(1.1) rotate(-5deg);
+}
+.button:active
+{
+    transform: scale(0.9) rotate(10deg);
+}
+span
+{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.card
+{
+    width: max-content;
+    max-width: 600px;
+    height: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.342);
+}
+
+.heading
+{
+    margin: 0;
+    font-size: 1.2em;
+}
